@@ -40,7 +40,7 @@ BATCH_SIZE = 32
 
 # Training Sampling rate and the target sampling rate for resampling the downloaded dataset (Note: If you change this you might need to redownload the dataset !!)
 # Note: If you add new datasets, please make sure that the dataset sampling rate and this parameter are matching, otherwise resample your audios
-SAMPLE_RATE = 22000
+SAMPLE_RATE = 22050
 
 # Max audio length in seconds to be used in training (every audio bigger than it will be ignored)
 MAX_AUDIO_LEN_IN_SECONDS = 10

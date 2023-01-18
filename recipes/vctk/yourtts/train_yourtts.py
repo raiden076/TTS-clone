@@ -24,7 +24,7 @@ torch.set_num_threads(24)
 CURRENT_PATH = os.path.dirname(os.path.abspath(__file__))
 
 # Name of the run for the Trainer
-RUN_NAME = "YourTTS-EN-VCTK"
+RUN_NAME = "YourTTS-EN-VCTK-huex-clone"
 
 # Path where you want to save the models outputs (configs, checkpoints and tensorboard logs)
 OUT_PATH = os.path.dirname(os.path.abspath(__file__))  # "/raid/coqui/Checkpoints/original-YourTTS/"
@@ -40,7 +40,7 @@ BATCH_SIZE = 32
 
 # Training Sampling rate and the target sampling rate for resampling the downloaded dataset (Note: If you change this you might need to redownload the dataset !!)
 # Note: If you add new datasets, please make sure that the dataset sampling rate and this parameter are matching, otherwise resample your audios
-SAMPLE_RATE = 16000
+SAMPLE_RATE = 22000
 
 # Max audio length in seconds to be used in training (every audio bigger than it will be ignored)
 MAX_AUDIO_LEN_IN_SECONDS = 10
